@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvversioninfos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text=""
+        />
+
+    <TextView
+        android:id="@+id/tvusedemoapkpath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text=""
+        />
+
+    <TextView
+        android:id="@+id/tvpatchpath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text=""
+        />
+
+    <TextView
+        android:id="@+id/tvtargetapkpath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text=""
+        />
+
+    <Button
+        android:id="@+id/btnpatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="合并"
+        />
+
+</LinearLayout>
