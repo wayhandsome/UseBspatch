@@ -37,8 +37,6 @@ public class MainActivity extends AppCompatActivity
 
     private TextView tvTargetapkPath;
 
-    private BroadcastReceiver installReceiver;
-
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -77,8 +75,6 @@ public class MainActivity extends AppCompatActivity
 
         tvpatchPath = (TextView) findViewById(R.id.tvpatchpath);
         tvTargetapkPath = (TextView) findViewById(R.id.tvtargetapkpath);
-
-        //registInstallReceiver();
     }
 
     private String getVesionName()
