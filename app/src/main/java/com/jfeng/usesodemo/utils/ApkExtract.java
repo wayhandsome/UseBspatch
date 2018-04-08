@@ -99,6 +99,7 @@ public class ApkExtract
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N)
         {
+            //对目标应用临时授权该Uri所代表的文件
             intent.setFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
             Uri contentUri = FileProvider.getUriForFile(context, "com.jfeng.usesodemo.fileprovider", new File(apkPath));
             intent.setDataAndType(contentUri, "application/vnd.android.package-archive");
