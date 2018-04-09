@@ -1,10 +1,10 @@
-# APK增量包合成工具类
- 
-## 作用描述
- 将增量包(xxx.patch) 和 旧版本APK文件 合并成新的 APK文件,从而达到升级
+# APK增量包合成工具类的使用Demo
 
-## 使用到的文件
+## 工具类主要文件
  合成工具类主要包含两个文件: jfeng-bspatch_v1.0.jar, libbspatch.so
+
+## 工具类作用
+ 将增量包(xxx.patch) 和 旧版本APK文件 合并成新的 APK文件
 
 ## 使用步骤
 1. 服务端事先通过 bsdiff工具 生成差异包(old-to-new.patch)
