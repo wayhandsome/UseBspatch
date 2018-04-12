@@ -1,4 +1,4 @@
-package com.jfeng.usesodemo;
+package com.jfeng.usebspatch;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.jfeng.usesodemo;
+package com.jfeng.usebspatch;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

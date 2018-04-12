@@ -1,4 +1,4 @@
-package com.jfeng.usesodemo;
+package com.jfeng.usebspatch;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;
@@ -16,7 +16,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.jfeng.bspatchlibrary.BsPatch;
-import com.jfeng.usesodemo.utils.ApkExtract;
+import com.jfeng.usebspatch.utils.ApkExtract;
 
 import java.io.File;
 

@@ -1,4 +1,4 @@
-package com.jfeng.usesodemo.utils;
+package com.jfeng.usebspatch.utils;
 
 import android.content.Context;
 import android.content.Intent;
