@@ -7,7 +7,11 @@
  将增量包(xxx.patch) 和 旧版本APK文件 合并成新的 APK文件
 
 ## 使用步骤
-1. 服务端事先通过 bsdiff工具 生成差异包(old-to-new.patch)
+1. 事先通过 bsdiff工具(差异包比较工具) 生成差异包(Eg:old-to-new.patch)
+   
+   或者使用我自己制作的差异包生成工具 [UseBsdiff.apk](https://github.com/wayhandsome/UseBsdiff/blob/master/UseBsdiff.apk)
+
+   (其内部也是使用了 bsdiff工具提供的源码构建成so和jar,调用了bsdiff工具对外提供的方法)
 
 2. 将 工具包 jfeng-bspatch_v1.0.jar 拷贝到 app/libs 目录下
 
